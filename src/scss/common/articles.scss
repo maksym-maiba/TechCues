@@ -1,0 +1,30 @@
+.articles {
+  margin-top: 100px;
+
+  &__content {
+    display: flex;
+  }
+
+  &__item {
+    border: 1px solid #ebeaf2;
+    border-radius: 8px;
+    margin-right: 56px;
+  }
+  &__title {
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #5c5cff;
+    margin-top: 32px;
+    margin-left: 24px;
+  }
+  &__text {
+    width: 255px;
+    font-size: 19px;
+    line-height: 30px;
+    color: #413e52;
+    margin-top: 58px;
+    margin-left: 24px;
+  }
+}
