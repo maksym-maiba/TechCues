@@ -3,7 +3,72 @@
   @@include('html/head.html', { "title": "Home" })
   <body>
     @@include('html/header.html', {})
-    <main class="main"></main>
+    <main class="main">
+      <section class="banner">
+        <div class="banner__content container">
+          <div class="banner__info">
+            <span class="banner__subtitle">Mobile Technology</span>
+            <h1 class="banner__title">
+              Technology in Sales: How Data is Powering Purchase Decisions
+            </h1>
+            <p class="banner__name">Milford Smith</p>
+            <br />
+            <p class="banner__date">February 12, 2021</p>
+          </div>
+          <div class="banner__img">
+            <img src="@img/banner.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section class="articles">
+        <div class="articles__content container">
+          <div class="articles__item">
+            <img src="@img/mobile.png" alt="" />
+            <h3 class="articles__title">Mobile Technology</h3>
+            <p class="articles__text">
+              Best Technology Podcast Episodes of 2020
+            </p>
+          </div>
+          <div class="articles__item">
+            <img src="@img/cause.png" alt="" />
+            <h3 class="articles__title">Case Studies</h3>
+            <p class="articles__text">
+              Drive Efficient Growth with Integrated Data
+            </p>
+          </div>
+          <div class="articles__item">
+            <img src="@img/case.png" alt="" />
+            <h3 class="articles__title">Case Studies</h3>
+            <p class="articles__text">
+              The Benefits of Data-Driven Storytelling with TechCues
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="subcribe">
+        <div class="subcribe__content container">
+          <div class="subcribe__left">
+            <p class="subcribe__subtitle">Free ebook</p>
+            <h3 class="subcribe__title">
+              5 Things You Can Do Right Now to Speed up Your Workflow
+            </h3>
+          </div>
+          <div class="subcribe__right">
+            <form action="">
+              <input
+                class="subcribe__email"
+                type="email"
+                placeholder="Email address"
+                name=""
+                id=""
+              />
+              <button class="subcribe__button" type="submit">SUBSCRIBE</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
     @@include('html/footer.html', {})
 
     <script src="js/app.min.js"></script>
