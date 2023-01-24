@@ -73,3 +73,19 @@
     color: #ababfa;
   }
 }
+
+@media (max-width: 776px) {
+  .footer {
+    height: 100%;
+  }
+  .footer__content {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer__nav {
+    margin-top: 55px;
+  }
+  .footer__right {
+    margin-top: 55px;
+  }
+}

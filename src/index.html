@@ -5,7 +5,7 @@
     @@include('html/header.html', {})
     <main class="main">
       <section class="banner">
-        <div class="banner__content container">
+        <div class="banner__content wrapper">
           <div class="banner__info">
             <span class="banner__subtitle">Mobile Technology</span>
             <h1 class="banner__title">
@@ -20,8 +20,8 @@
           </div>
         </div>
       </section>
-      <!-- <section class="articles">
-        <div class="articles__content container">
+      <section class="articles">
+        <div class="articles__content wrapper">
           <div class="articles__item">
             <img src="@img/mobile.png" alt="articlesimg" />
             <h3 class="articles__title">Mobile Technology</h3>
@@ -46,7 +46,7 @@
         </div>
       </section>
       <section class="subcribe">
-        <div class="subcribe__content container">
+        <div class="subcribe__content wrapper">
           <div class="subcribe__left">
             <p class="subcribe__subtitle">Free ebook</p>
             <h3 class="subcribe__title">
@@ -66,10 +66,15 @@
           </div>
         </div>
       </section>
+
       <section class="studies">
-        <div class="studies__content container">
+        <div class="studies__content wrapper">
           <div class="studies__banner">
-            <img src="@img/studies.png" alt="studiesimg" />
+            <img
+              class="responsive__img"
+              src="@img/studies.png"
+              alt="studiesimg"
+            />
             <h4 class="studies__title">
               Drive Efficient Growth with Integrated Data
             </h4>
@@ -97,8 +102,9 @@
           </div>
         </div>
       </section>
+
       <section class="news">
-        <div class="news__content container">
+        <div class="news__content wrapper">
           <div class="news__mains">
             <div class="news__list">
               <span class="news__author"> Milford Smith </span>
@@ -163,10 +169,10 @@
             </div>
           </div>
         </div>
-      </section> -->
+      </section>
     </main>
     @@include('html/footer.html', {})
-  
+
     <script src="js/app.min.js"></script>
   </body>
 </html>

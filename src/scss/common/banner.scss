@@ -14,7 +14,7 @@
     color: #5c5cff;
   }
   &__info {
-    width: 500px;
+    width: 40%;
     padding: 65px 0px 0px 45px;
   }
   &__title {
@@ -36,5 +36,20 @@
     font-size: 13px;
     line-height: 20px;
     color: #868297;
+  }
+}
+@media (max-width: 776px) {
+  .banner__content {
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  .banner__title {
+    font-size: 19px;
+  }
+  .banner__info {
+    padding-bottom: 20px;
+  }
+  .banner__info {
+    width: 100% ;
   }
 }

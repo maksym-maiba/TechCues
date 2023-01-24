@@ -27,3 +27,12 @@
     margin-left: 24px;
   }
 }
+@media (max-width: 776px) {
+  .articles__content {
+    flex-direction: column;
+  }
+  .articles__item {
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+}

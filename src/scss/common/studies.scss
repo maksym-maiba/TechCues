@@ -36,3 +36,8 @@
     color: #868297;
   }
 }
+@media (max-width: 776px) {
+  .studies__content {
+    flex-direction: column;
+  }
+}

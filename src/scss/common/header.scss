@@ -42,3 +42,19 @@
     color: #ffffff;
   }
 }
+@media (max-width: 776px) {
+  .header__button {
+    display: none;
+  }
+  .header__item {
+    justify-content: center;
+  }
+  .header__top  {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  .header__link {
+    font-size: 22px;
+  }
+}
