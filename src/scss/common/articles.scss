@@ -19,7 +19,7 @@
     margin-left: 24px;
   }
   &__text {
-    width: 255px;
+    width: 80%;
     font-size: 19px;
     line-height: 30px;
     color: #413e52;
@@ -34,5 +34,19 @@
   .articles__item {
     margin: 0 auto;
     margin-bottom: 20px;
+  }
+}
+@media (max-width: 480px) {
+  .articles {
+    margin-top: 0px;
+  }
+  .articles__item {
+    padding-bottom: 10px;
+  }
+  .articles__title {
+    margin-top: 15px;
+  }
+  .articles__text {
+    margin-top: 15px;
   }
 }

@@ -8,14 +8,13 @@
   }
   &__subtitle {
     font-size: 14px;
-    line-height: 18px;
     letter-spacing: 1.4px;
     text-transform: uppercase;
     color: #5c5cff;
   }
   &__info {
     width: 40%;
-    padding: 65px 0px 0px 45px;
+    margin: 65px 0px 0px 45px;
   }
   &__title {
     font-size: 42px;
@@ -50,6 +49,22 @@
     padding-bottom: 20px;
   }
   .banner__info {
-    width: 100% ;
+    width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  .banner__content {
+    margin-top: 20px;
+  }
+  .banner__title {
+    line-height: 30px;
+  }
+  .banner__info {
+    order: 2;
+    margin: 0 auto;
+    padding: 20px 20px 20px 20px;
+  }
+  .banner__img {
+    order: 1;
   }
 }

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  @@include('html/head.html', { "title": "Home" })
+  @@include('html/head.html', { "title": "TechCues" })
   <body>
     @@include('html/header.html', {})
     <main class="main">
@@ -23,21 +23,21 @@
       <section class="articles">
         <div class="articles__content wrapper">
           <div class="articles__item">
-            <img src="@img/mobile.png" alt="articlesimg" />
+            <img class="responsive__img" src="@img/mobile.png" alt="articlesimg" />
             <h3 class="articles__title">Mobile Technology</h3>
             <p class="articles__text">
               Best Technology Podcast Episodes of 2020
             </p>
           </div>
           <div class="articles__item">
-            <img src="@img/cause.png" alt="articlesimg" />
+            <img class="responsive__img" src="@img/cause.png" alt="articlesimg" />
             <h3 class="articles__title">Case Studies</h3>
             <p class="articles__text">
               Drive Efficient Growth with Integrated Data
             </p>
           </div>
           <div class="articles__item">
-            <img src="@img/case.png" alt="articlesimg" />
+            <img class="responsive__img" src="@img/case.png" alt="articlesimg" />
             <h3 class="articles__title">Case Studies</h3>
             <p class="articles__text">
               The Benefits of Data-Driven Storytelling with TechCues
@@ -128,7 +128,7 @@
 
           <div class="news__subscribe">
             <div class="news__item">
-              <img src="@img/subscribe.png" alt="subcribeimg" />
+              <img class="responsive__img" src="@img/subscribe.png" alt="subcribeimg" />
               <h4 class="news__subtitle">
                 Head <br />
                 ing
@@ -136,7 +136,7 @@
               <h5 class="news__title">
                 Quality tech news. In your inbox. Every week.
               </h5>
-              <form action="">
+              <form action="" class="news__form">
                 <input
                   class="news__email"
                   type="email"
