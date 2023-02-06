@@ -71,9 +71,20 @@
     width: 100%;
   }
 }
+@media (max-width: 992px) {
+  .subcribe {
+    margin-top: 20px;
+  }
+  .subcribe__title {
+    font-size: 25px;
+    line-height: 35px;
+  }
+}
 @media (max-width: 480px) {
   .subcribe__title {
     font-size: 15px;
+    line-height: 30px;
+    padding: 0px 45px 15px 45px;
   }
   .subcribe__right {
     width: 70%;

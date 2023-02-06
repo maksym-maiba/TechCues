@@ -2,12 +2,13 @@
   margin-top: 100px;
   &__content {
     display: flex;
+    column-gap: 22px;
   }
   &__item {
     border: 1px solid #ebeaf2;
     border-radius: 8px;
-    margin-right: 56px;
     padding-bottom: 40px;
+    width: 33%;
   }
   &__title {
     font-size: 14px;
@@ -27,6 +28,11 @@
     margin-left: 24px;
   }
 }
+@media (max-width: 992px) {
+  .articles {
+    margin-top: 30px;
+  }
+}
 @media (max-width: 776px) {
   .articles__content {
     flex-direction: column;
@@ -35,7 +41,11 @@
     margin: 0 auto;
     margin-bottom: 20px;
   }
+  .articles__item {
+    width: 80%;
+  }
 }
+
 @media (max-width: 480px) {
   .articles {
     margin-top: 0px;

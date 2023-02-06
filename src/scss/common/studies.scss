@@ -36,6 +36,11 @@
     color: #868297;
   }
 }
+@media (max-width: 992px) {
+  .studies {
+    margin-top: 30px;
+  }
+}
 @media (max-width: 776px) {
   .studies__content {
     flex-direction: column;
