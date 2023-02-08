@@ -46,13 +46,18 @@
   .studies__title {
     line-height: 30px;
   }
+  .studies__banner {
+    margin-top: 40px;
+  }
  
 }
+
 @media (max-width: 776px) {
   .studies__content {
     flex-direction: column;
   }
 }
+
 @media (max-width: 480px) {
   .studies {
     margin-top: 15px;
