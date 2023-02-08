@@ -2,31 +2,14 @@
   width: 1200px;
   margin: 0 auto;
 }
-
 @media (max-width: 1199px) {
-  // big tablet
   .wrapper {
     width: 100%;
   }
 }
-
 @media (max-width: 992px) {
-  // tablet
-  .wrapper {
-    width: 100%;
-  }
 }
-
 @media (max-width: 776px) {
-  // big mobile
-  .wrapper {
-    width: 100%;
-  }
 }
-
 @media (max-width: 480px) {
-  // mobile
-  .wrapper {
-    width: 100%;
-  }
 }
